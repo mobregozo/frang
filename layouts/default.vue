@@ -25,7 +25,7 @@
           </ul>
         </div>
       </div>
-      <nuxt />
+      <nuxt class="my-6" />
     </div>
   </div>
 </template>

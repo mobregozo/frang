@@ -1,7 +1,7 @@
 <template>
   <div>
     THIS IS THE HOME PAGE
-    <div class="grid mt-10 grid-cols-2 gap-4 justify-center">
+    <div class="grid mt-10 grid-cols1 md:grid-cols-2 gap-4 justify-center">
       <div class="rounded overflow-hidden shadow-lg">
         <img
           class="w-full"
