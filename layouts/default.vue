@@ -1,6 +1,32 @@
 <template>
   <div>
-    <nuxt />
+    <div class="container mx-auto pt-5 px-10">
+      <div class="flex my-6 justify-between">
+        <nuxt-link to="/" class="text-gray-500 font-bold hover:text-gray-400"
+          >FRANG</nuxt-link
+        >
+        <div class="justify-end">
+          <ul class="flex">
+            <li class="mr-6">
+              <nuxt-link to="/" class="text-gray-500 hover:text-gray-800"
+                >Home</nuxt-link
+              >
+            </li>
+            <li class="mr-6">
+              <nuxt-link to="/about" class="text-gray-500 hover:text-gray-800"
+                >About</nuxt-link
+              >
+            </li>
+            <li class="mr-6">
+              <nuxt-link to="/contact" class="text-gray-500 hover:text-gray-800"
+                >Contact</nuxt-link
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <nuxt />
+    </div>
   </div>
 </template>
 
@@ -22,34 +48,5 @@ html {
 *:after {
   box-sizing: border-box;
   margin: 0;
-}
-
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
-
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
 }
 </style>

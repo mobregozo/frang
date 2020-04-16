@@ -1,36 +1,159 @@
 <template>
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        frang
-      </h1>
-      <h2 class="subtitle">
-        My kickass Nuxt.js project
-      </h2>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+  <div>
+    THIS IS THE HOME PAGE
+    <div class="grid mt-10 grid-cols-2 gap-4 justify-center">
+      <div class="rounded overflow-hidden shadow-lg">
+        <img
+          class="w-full"
+          src="https://cms-assets.tutsplus.com/uploads/users/108/posts/29172/final_image/how-to-draw-skull-front-final.png"
+          alt="Sunset in the mountains"
+        />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+          <p class="text-gray-700 text-base">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Voluptatibus quia, nulla! Maiores et perferendis eaque,
+            exercitationem praesentium nihil.
+          </p>
+        </div>
+        <div class="px-6 py-4">
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
+            >#photography</span
+          >
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
+            >#travel</span
+          >
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700"
+            >#winter</span
+          >
+        </div>
+      </div>
+      <div class="rounded overflow-hidden shadow-lg">
+        <img
+          class="w-full"
+          src="https://cms-assets.tutsplus.com/uploads/users/108/posts/29172/final_image/how-to-draw-skull-front-final.png"
+          alt="Sunset in the mountains"
+        />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+          <p class="text-gray-700 text-base">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Voluptatibus quia, nulla! Maiores et perferendis eaque,
+            exercitationem praesentium nihil.
+          </p>
+        </div>
+        <div class="px-6 py-4">
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
+            >#photography</span
+          >
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
+            >#travel</span
+          >
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700"
+            >#winter</span
+          >
+        </div>
+      </div>
+      <div class="rounded overflow-hidden shadow-lg">
+        <img
+          class="w-full"
+          src="https://cms-assets.tutsplus.com/uploads/users/108/posts/29172/final_image/how-to-draw-skull-front-final.png"
+          alt="Sunset in the mountains"
+        />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+          <p class="text-gray-700 text-base">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Voluptatibus quia, nulla! Maiores et perferendis eaque,
+            exercitationem praesentium nihil.
+          </p>
+        </div>
+        <div class="px-6 py-4">
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
+            >#photography</span
+          >
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
+            >#travel</span
+          >
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700"
+            >#winter</span
+          >
+        </div>
+      </div>
+      <div class="rounded overflow-hidden shadow-lg">
+        <img
+          class="w-full"
+          src="https://cms-assets.tutsplus.com/uploads/users/108/posts/29172/final_image/how-to-draw-skull-front-final.png"
+          alt="Sunset in the mountains"
+        />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+          <p class="text-gray-700 text-base">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Voluptatibus quia, nulla! Maiores et perferendis eaque,
+            exercitationem praesentium nihil.
+          </p>
+        </div>
+        <div class="px-6 py-4">
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
+            >#photography</span
+          >
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
+            >#travel</span
+          >
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700"
+            >#winter</span
+          >
+        </div>
+      </div>
+      <div class="rounded overflow-hidden shadow-lg">
+        <img
+          class="w-full"
+          src="https://cms-assets.tutsplus.com/uploads/users/108/posts/29172/final_image/how-to-draw-skull-front-final.png"
+          alt="Sunset in the mountains"
+        />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+          <p class="text-gray-700 text-base">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Voluptatibus quia, nulla! Maiores et perferendis eaque,
+            exercitationem praesentium nihil.
+          </p>
+        </div>
+        <div class="px-6 py-4">
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
+            >#photography</span
+          >
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
+            >#travel</span
+          >
+          <span
+            class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700"
+            >#winter</span
+          >
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
 export default {
-  components: {
-    Logo
-  }
+  components: {}
 }
 </script>
 
@@ -40,34 +163,4 @@ export default {
   @apply min-h-screen flex justify-center items-center text-center mx-auto;
 }
 */
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
 </style>
